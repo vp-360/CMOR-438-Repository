@@ -14,7 +14,7 @@ $$z = \mathbf{w} \cdot \mathbf{x} + b$$
 
 **Activation** — the sign function turns that sum into a label of $-1$ or $+1$:
 
-$$\hat{y} = \operatorname{sign}(z)$$
+$$\hat{y} = \text{sign}(z)$$
 
 **Learning rule** — for each example, the weights and bias shift toward the correct answer:
 
